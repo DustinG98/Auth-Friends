@@ -29,8 +29,6 @@ const Friends = () => {
     }
     return (
         <div>
-            {console.log(isEditing)}
-            {console.log(friendToEdit)}
             <h2>Add Friend</h2>
             <AddFriend setIsEditing={setIsEditing} isEditing={isEditing} friendToEdit={friendToEdit} updateFriends={updateFriends}/>
             <h2>Friends</h2>
